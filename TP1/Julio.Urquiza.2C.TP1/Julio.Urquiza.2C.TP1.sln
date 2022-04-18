@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Julio.Urquiza.2C.TP1\Entidades\Entidades.csproj", "{6694514F-63C8-4501-971F-835D8887DEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCalculadora", "..\Julio.Urquiza.2C.TP1\MiCalculadora\MiCalculadora.csproj", "{44234058-FF33-4658-BB9F-CBC2552CA6F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6694514F-63C8-4501-971F-835D8887DEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6694514F-63C8-4501-971F-835D8887DEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6694514F-63C8-4501-971F-835D8887DEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6694514F-63C8-4501-971F-835D8887DEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44234058-FF33-4658-BB9F-CBC2552CA6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44234058-FF33-4658-BB9F-CBC2552CA6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44234058-FF33-4658-BB9F-CBC2552CA6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44234058-FF33-4658-BB9F-CBC2552CA6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF870E71-929E-4EF0-8162-2335BD07717A}
+	EndGlobalSection
+EndGlobal
