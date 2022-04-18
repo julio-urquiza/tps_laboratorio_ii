@@ -108,20 +108,21 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblResultado.Location = new System.Drawing.Point(415, 12);
+            this.lblResultado.Location = new System.Drawing.Point(381, 12);
             this.lblResultado.Name = "lblResultado";
+            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblResultado.Size = new System.Drawing.Size(46, 54);
             this.lblResultado.TabIndex = 0;
             this.lblResultado.Text = "0";
             // 
             // lstOperaciones
             // 
-            this.lstOperaciones.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lstOperaciones.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lstOperaciones.FormattingEnabled = true;
-            this.lstOperaciones.ItemHeight = 45;
-            this.lstOperaciones.Location = new System.Drawing.Point(479, 2);
+            this.lstOperaciones.ItemHeight = 37;
+            this.lstOperaciones.Location = new System.Drawing.Point(476, 12);
             this.lstOperaciones.Name = "lstOperaciones";
-            this.lstOperaciones.Size = new System.Drawing.Size(211, 274);
+            this.lstOperaciones.Size = new System.Drawing.Size(221, 263);
             this.lstOperaciones.TabIndex = 4;
             // 
             // txtNumero2
@@ -161,6 +162,7 @@
             this.Name = "FormCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Julio Urquiza del Curso  2°C";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCalculadora_FormClosing);
             this.Load += new System.EventHandler(this.FormCalculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

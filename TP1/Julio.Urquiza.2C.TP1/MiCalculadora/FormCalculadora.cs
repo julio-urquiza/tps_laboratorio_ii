@@ -16,7 +16,7 @@ namespace MiCalculadora
         {
             InitializeComponent();
         }
-
+        
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
             this.Limpiar();
@@ -43,10 +43,7 @@ namespace MiCalculadora
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Yes)
-            {
-                this.Close();
-            }
+            this.Close();
         }
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
@@ -75,6 +72,14 @@ namespace MiCalculadora
             txtNumero1.Text = "0";
             txtNumero2.Text = "0";
             cmbOperador.Text = "";
+        }
+
+        private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.No)
+            {
+                e.Cancel=true;
+            }
         }
     }
 }
